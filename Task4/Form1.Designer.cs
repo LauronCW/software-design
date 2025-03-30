@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace Task4
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -36,14 +36,14 @@
             // 
             listBoxResults.FormattingEnabled = true;
             listBoxResults.ItemHeight = 37;
-            listBoxResults.Location = new Point(279, 116);
+            listBoxResults.Location = new Point(309, 119);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(270, 189);
             listBoxResults.TabIndex = 0;
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(59, 116);
+            btnSort.Location = new Point(108, 119);
             btnSort.Name = "btnSort";
             btnSort.Size = new Size(169, 52);
             btnSort.TabIndex = 1;
